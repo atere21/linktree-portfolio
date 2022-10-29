@@ -1,12 +1,14 @@
 import React from 'react'
-import MyImage from '../src/menu.png'
+ import MyImage from '../src/menu.png'
+ import Share from '../src/share.png'
 import './ProfileLink.css'
 
 
 function ProfileLink() {
   return (
     <div className='profileLinks'>
-        <img className='menu' src={MyImage} alt="menu" />
+        <img className='shareIcon' src={Share} />
+        <img className='menu' src={MyImage} alt="menu" /> 
 
        <div className='links'>
         <div className='name'><h2>Oluwatosin Atere</h2></div>
