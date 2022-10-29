@@ -1,0 +1,36 @@
+.links{
+    padding-left: 130px;
+    align-items: center;
+}
+h3{
+    
+    padding: 20px;
+    text-align: center;
+    margin: 40px;
+    height: 3.5vh;
+    width: 50vw;
+    background-color: rgb(216, 204, 204);
+    font-size: medium;
+    font-weight: light;
+    transition: 0.4s ease-in-out;
+    
+}
+h3:hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+     color: black;
+}
+.menu{
+    margin-left: 440px;
+    margin-right: 30px;
+    padding-top: 30px;
+}
+.name >h2{
+    align-items: center;
+    margin-left:100px;
+    margin-right:100px;
+}
