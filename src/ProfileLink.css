@@ -1,6 +1,7 @@
 .links{
     padding-left: 130px;
     align-items: center;
+    margin-bottom: -20px;
 }
 h3{
     
@@ -25,25 +26,29 @@ a {
      color: black;
 }
 .menu{
-    position: relative;
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 24px 460px;
-    text-decoration: none;
-    font-size: 17px;
+   
 }
-.name >h2{
-    align-items: center;
-    margin-left:50px;
-    margin-right:10px;
-    max-width: fit-content;
-    max-height: fit-content;
+h2{
+    margin-left: 140px;
+    
+}
+.menu__exit{
+    position: relative;
+    float: right;
+    margin-left: -30px;
 }
 
-.shareIcon{
-    margin-left: 440px;
-    margin-right: 30px;
-    float: right;
+.ImgIcon{
+    display: flex;
+    border-radius: 280px;
+    width: 100px;
+    margin-top: 90px;
+    margin-left: 190px;
+}
+.profileLinks{
+    margin-left: 50px;
+    margin-right: 0px;
+}
+.name{
+    margin-bottom: -10px;
 }

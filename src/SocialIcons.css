@@ -15,8 +15,11 @@
 }
 .I4g{
     width: 70px;
-    padding-top: 30px;
-    padding-left: 30px;
-    margin-left: 70px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: 20px;
     align-items: center;
+}
+.bottom__footer >img{
+    max-width: 150px;
 }

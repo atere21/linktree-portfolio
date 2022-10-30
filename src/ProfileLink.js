@@ -1,17 +1,23 @@
 import React from 'react'
- import MyImage from '../src/menu.png'
- import Share from '../src/share.png'
+//  import MyImage from '../src/menu.png'
+//  import Share from '../src/share.png'
+ import Img from '../src/Dp.jpg'
 import './ProfileLink.css'
 
 
 function ProfileLink() {
   return (
     <div className='profileLinks'>
+      {/* <div className='menu__exit'>
         <img className='shareIcon' src={Share} />
         <img className='menu' src={MyImage} alt="menu" /> 
-
+          </div> */}
        <div className='links'>
-        <div className='name'><h2>Oluwatosin Atere</h2></div>
+       <img className='ImgIcon' src={Img} />
+          
+          <div className='name'>
+          <h2>Oluwatosin Atere</h2>
+          </div>
        
       <a id='twitter' href='https://twitter.com/flourishgold212' target='_blank'><h3>Twitter Link </h3></a>
       <a id="btn__zuri" href="https://training.zuri.team/" target="_blank"><h3 id="btn__zuri">Zuri Team </h3></a>
