@@ -25,9 +25,6 @@ a {
     text-decoration: none;
      color: black;
 }
-.menu{
-   
-}
 h2{
     margin-left: 140px;
     
@@ -48,6 +45,8 @@ h2{
 .profileLinks{
     margin-left: 50px;
     margin-right: 0px;
+    display: flex;
+    align-content: center;
 }
 .name{
     margin-bottom: -10px;
