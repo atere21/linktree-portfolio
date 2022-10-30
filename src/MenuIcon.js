@@ -5,7 +5,7 @@ import Share from '../src/share.png'
 
 function MenuIcon() {
   return (
-    <div className='menu'>
+    <div className='menu_1'>
          <div className='menu_exit'>
         <img className='shareIcon' src={Share} />
         <img className='menu' src={MyImage} alt="menu" /> 
