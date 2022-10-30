@@ -1,11 +1,8 @@
 .menu__exit{
-    
-}
-.shareIcon{
-height: 40px;
-width: 40px;
-left: 904px;
-top: -10px;
-border-radius: 20px;
-
+  position: absolute;
+  right: 150px;
+  width: 50vw;
+  height: 20px;
+  float: right;
+  display: flex;
 }

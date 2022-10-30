@@ -2,6 +2,7 @@ import React from 'react'
 import './SocialIcons.css'
 import Slack from '../src/slack.png'
 import Git from '../src/git.png'
+import Ftext from '../src/Ftext.png'
 import I4g from '../src/I4G.png'
 
 
@@ -15,6 +16,7 @@ function SocialIcons() {
         </div>
         <div className='bottom__footer'>
         <img className='zuri' src= "https://internship.zuri.team/static/media/logo.36d2d48a.svg" alt="img" />
+        <img className='Text' src={Ftext}/>
         <img className="I4g" src={I4g} alt='menu' />
         </div>
     </div>
