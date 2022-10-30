@@ -39,14 +39,15 @@ h2{
     display: flex;
     border-radius: 280px;
     width: 100px;
-    margin-top: 90px;
-    margin-left: 190px;
+    margin-top: -90px;
+    margin-left: 90px;
 }
 .profileLinks{
     margin-left: 50px;
     margin-right: 0px;
     display: flex;
     align-content: center;
+    
 }
 .name{
     margin-bottom: -10px;
