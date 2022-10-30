@@ -6,17 +6,22 @@
   float: right;
   display: flex;
 }
-@media screen and (max-width:820px) and (min-width:350px) {
+/* @media screen and (max-width:820px) and (min-width:350px) {
   .shareIcon{
       display: none;
   }
   
 }
-@media screen and (min-width:820px) and (max-width:350px){
-  .shareIcon{
-    display: flex;
-  }
+@media screen and (max-width:820px)  {
   .menu{
-    display: none;
+      display: none;
   }
+  
+} */
+@media screen and (max-width:820px)  and (min-width:430px){
+  .shareIcon{
+    display: none;
+  
+  }
+  
 }
