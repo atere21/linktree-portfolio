@@ -12,7 +12,7 @@ function App() {
     <div className='app' >
       <Switch>
         <Route path='/contact'>
-        <MenuIcon />
+        
         <Contact/>
        <SocialIcons />
         </Route>

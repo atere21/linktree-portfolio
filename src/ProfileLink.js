@@ -25,6 +25,7 @@ function ProfileLink() {
       <a id="book__python" href="https://books.zuri.team/python-for-beginners?ref_id=<OluwatosinAtere>" target="_blank"><h3>Python Books</h3></a>
       <a id="pitch" href="https://background.zuri.team" target="_blank"><h3>Background Check for Coders</h3></a>
       <a href='https://books.zuri.team/design-rules' target="_blank"><h3>Design Books</h3></a>
+      <a id='contact' href='./Contact' target="_blank"><h3>Contact Me</h3></a>
       </div>
     </div>
   )

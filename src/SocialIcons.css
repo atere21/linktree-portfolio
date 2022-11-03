@@ -26,18 +26,15 @@
     margin-left: 20px;
     align-items: center;
 }
-.bottom__footer{
-    margin-left: 90px;
-    margin-top: 30px;
-    position: absolute;
-    width: 100vw;
-    
-}
+
 .bottom__footer >img{
     max-width: 100px;
+    margin-left: 60px;
+    margin-top: 20px;
 }
 .Text{
-    padding-left: 20px;
-    width: 130px;
+    padding-left: 10px;
+    width: 100px;
+    height: 8px;
     
 }
