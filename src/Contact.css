@@ -15,20 +15,22 @@
 }
 .container2{
     background: white;
-    width:800px;
-    max-width: 800px;
+    width:100vw;
+    max-width: 80vw;
+    height: 100vh;
     padding: 25px 280px 70px 40px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 .container2 .text{
     font-size: 23px;
     font-weight:lighter;
-    text-align: left;  
+    text-align: left; 
+    width: 40vw;
     
 }
 .container2 .text >p{
-width: 720px;
-height: 30px;
+width: 75vw;
+height: 6vh;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -67,6 +69,7 @@ label{
     border: 1px solid #D0D5DD;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     border-radius: 8px;
+    
 }
 .name1{
     width: 24vw;
@@ -91,7 +94,7 @@ form .form-row .input-data{
 .form-textarea input{
     display: block;
     height: 100%;
-    width: 100%;
+    width: 50vw;
     font-size: 16px;
     border-bottom: 0x;
     border: 1px solid #D0D5DD;
@@ -101,6 +104,7 @@ form .form-row .input-data{
     
 }
 .input-data label{
+    pointer-events: none;
     width: 71px;
     height: 20px;
     font-family: 'Inter';
@@ -109,5 +113,22 @@ form .form-row .input-data{
     font-size: 14px;
     line-height: 20px;
     color: #344054;
+    
 }
 
+.form-textarea label{
+    width: 100%;
+    bottom: 130px;
+    
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:50vw;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}

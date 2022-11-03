@@ -32,8 +32,9 @@ function Contact() {
                 <div className='form-textarea'>
                     <div className='input-data'>
                     <label>Message</label>
-                        <textarea id='message' cols="40" rows="7" placeholder='send me a message, i will reply as soon as possible'></textarea>
+                        <textarea className='message' id='message' cols="40" rows="7" placeholder='send me a message, i will reply as soon as possible'></textarea>
                         <div className='inner'></div>
+                        
                         <input type="checkbox" value=""></input>
                         <label>you agree to providing your data to us who may contact you</label>
                         <div className='button'>
