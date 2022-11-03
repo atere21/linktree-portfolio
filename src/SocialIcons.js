@@ -10,7 +10,7 @@ function SocialIcons() {
   return (
     <div className='slack_git'>
       
-      <div>
+      <div className='sl_git'>
        <img className="slack" src={Slack} alt='menu' />
         <img className="git" src={Git} alt='menu' />
         </div>

@@ -36,14 +36,17 @@ h2{
 }
 
 .ImgIcon{
-    display: flex;
+    
+    position: absolute;
     border-radius: 280px;
     width: 100px;
+    height: 100px;
     margin-top: -90px;
-    margin-left: 90px;
+    justify-content: center;
+    margin-left: 140px;
 }
 .profileLinks{
-    margin-left: 50px;
+    margin-left: 0px;
     margin-right: 0px;
     display: flex;
     align-content: center;
@@ -51,4 +54,5 @@ h2{
 }
 .name{
     margin-bottom: -10px;
+    margin-top: 40px;
 }

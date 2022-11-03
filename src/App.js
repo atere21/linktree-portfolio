@@ -2,15 +2,28 @@ import React from 'react'
 import MenuIcon from './MenuIcon'
 import ProfileLink from './ProfileLink'
 import SocialIcons from './SocialIcons'
-
+import {BrowserRouter as Router, Switch, Route}
+from "react-router-dom"
+import Contact from './Contact'
 
 function App() {
   return (
+    <Router>
     <div className='app' >
-      <MenuIcon />
-      <ProfileLink />
+      <Switch>
+        <Route path='/contact'>
+        <MenuIcon />
+        <Contact/>
        <SocialIcons />
+        </Route>
+        <Route path='/'>
+        <MenuIcon />
+        <ProfileLink />
+        <SocialIcons />
+        </Route>
+       </Switch>
     </div>
+    </Router>
   )
 }
 

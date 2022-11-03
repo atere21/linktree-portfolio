@@ -1,7 +1,7 @@
 .slack_git{
     position: absolute;
     align-content: center;
-    padding-left: 240px;
+    padding-left: 150px;
 }
 .zuri{
     width: 90px;
@@ -12,6 +12,12 @@
     margin-left: 20px;
     align-items: center;
     
+}
+.sl_git{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-left: 90px;
 }
 .I4g{
     width: 70px;
