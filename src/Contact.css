@@ -31,7 +31,7 @@
     background: white;
     width:80vw;
     max-width: 80vw;
-    height: 90vh;
+    height: 120vh;
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 10px;
@@ -75,7 +75,7 @@ label{
 }
 .container2 form .form-row{
     display: flex;
-    margin: 32px 0;
+    margin: 72px 0;
     
 }
 .name2{
@@ -121,12 +121,13 @@ form .form-row .input-data{
     width: 100%;
     height: 40px;
     margin: 0 20px;
+    margin-bottom: 30px;
     
 }
 .form-textarea
 {
     height:70px;
-    
+    margin-top: 30px;
 }
 
 .form-textarea input{
@@ -134,7 +135,7 @@ form .form-row .input-data{
     height: 100%;
     width: 50vw;
     font-size: 16px;
-    border-bottom: 0x;
+    border-bottom: 50x;
     border: 1px solid #D0D5DD;
     border-radius: 8px;
     padding: 10px 14px;
@@ -145,6 +146,7 @@ form .form-row .input-data{
     pointer-events: none;
     width: 71px;
     height: 20px;
+    margin-bottom: 20px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -156,7 +158,7 @@ form .form-row .input-data{
 
 .form-textarea label{
     width: 100%;
-    bottom: 130px;
+    bottom: 30px;
     
 }
 .message{

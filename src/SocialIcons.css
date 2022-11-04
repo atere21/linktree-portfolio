@@ -23,11 +23,12 @@
        
     }
 }
-@media screen and (max-width: 1266px) {
+@media screen and (min-width: 701px) and (max-width: 1266px) {
     .slack_git{
-        position: flex;
+        
         align-content: center;
         padding-left: -290px;
+        resize: none;
        
     }
 }
@@ -64,6 +65,7 @@
 .b__foot{
     display: block;
     margin-left: -130px;
+    
 }
 .Text{
     padding-left: 10px;
@@ -72,6 +74,18 @@
     
 }
 .bottom__footer{
-  margin-left: 90px;
-  
+  margin-left: 10px;
+  width: 400px;
+}
+@media screen and (max-width: 700px) {
+    .bottom__footer{
+        margin-left: -90px;
+        width: 100px;
+      }
+      .sl_git{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: -190px;
+    }
 }

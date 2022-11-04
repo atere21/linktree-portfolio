@@ -17,7 +17,7 @@ function ProfileLink() {
           
           <div className='name'>
           <h2>Oluwatosin Atere</h2>
-          </div>
+          </div >
        
       <a id='twitter' href='https://twitter.com/flourishgold212' target='_blank'><h3>Twitter Link </h3></a>
       <a id="btn__zuri" href="https://training.zuri.team/" target="_blank"><h3 id="btn__zuri">Zuri Team </h3></a>

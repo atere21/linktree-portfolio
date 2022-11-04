@@ -8,12 +8,32 @@
   margin-left: 500px;
 }
 .menu_1{
-  margin-left: 570px;
+  margin-left:670px;
   margin-top: 0px;
   padding-top: 80px;
   
 
 }
+@media screen and (max-width:1200px) and (min-width:1200px) {
+ 
+  .menu__exit{
+    position: absolute;
+    right: 150px;
+    width: 50vw;
+    height: 20px;
+    float: right;
+    display: flex;
+    margin-left: 600px;
+  }
+  .menu_1{
+    margin-left:670px;
+    margin-top: 0px;
+    padding-top: 80px;
+    
+  
+  }
+}
+
 /* @media screen and (max-width:820px) and (min-width:350px) {
   .shareIcon{
       display: none;
