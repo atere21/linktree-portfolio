@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Contact.css'
-
 function Contact() {
+    
   return (
     <div className='contact'>
     <div className='container2'>
@@ -17,7 +17,7 @@ function Contact() {
                 <div className='text'>
                 <div className='input-data'>
                 <label className='lastn'>Last Name</label>
-                    <input className='name2' id='last_name' type='text'required placeholder='Enter your last Name' />
+                    <input className='name2' id='last_name' type='text' required placeholder='Enter your last Name' />
                     
                     </div>
                     </div>
@@ -35,16 +35,17 @@ function Contact() {
                         <textarea className='message' required id='message' cols="40" rows="7" placeholder='send me a message, i will reply as soon as possible'>
                         </textarea>
                         </div>
-                        <div className='submit-div'>
+                        
+                            
                         <input id='sub' type="checkbox" value=""></input>
                         
-                        <label id='check_label'>you agree to providing your data to us who may contact you</label>
+                        <label id='check_label'>You agree to providing your data to us who may contact you</label>
                         
                         <div className='button'>
                         <input id='btn__submit' type="submit" value="Send Message">
                         </input>
                        
-                    </div>
+                    
                     </div>
                     
                 </div>

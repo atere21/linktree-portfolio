@@ -1,12 +1,39 @@
 .slack_git{
-    position: absolute;
+    position: flex;
     align-content: center;
-    padding-left: 190px;
-    width: 150px;
+    padding-left: 390px;
+    width: 100px;
+    resize: none;
+}
+@media screen and (max-width: 700px) {
+    .slack_git{
+        position: flex;
+        align-content: center;
+        padding-left: 190px;
+        width: 150px;
+        resize: none;
+    }
+}
+@media screen and (max-width: 699px) {
+    .slack_git{
+        position: flex;
+        align-content: center;
+        padding-left: 250px;
+        width: 150px;
+       
+    }
+}
+@media screen and (max-width: 1266px) {
+    .slack_git{
+        position: flex;
+        align-content: center;
+        padding-left: -290px;
+       
+    }
 }
 .zuri{
     width: 90px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 .slack{
     margin-right: 40px;
@@ -17,15 +44,16 @@
 .sl_git{
     display: flex;
     align-items: center;
-    margin-top: 70px;
-    
+    margin-top: 20px;
+    margin-left: -30px;
 }
 .I4g{
-    width: 0px;
+    width: 100px;
     padding-top: 10px;
     padding-left: 20px;
     margin-left: 20px;
     align-items: center;
+    left: 0;
 }
 
 /* .bottom__footer >img{
@@ -35,7 +63,7 @@
 } */
 .b__foot{
     display: block;
-    margin-left: -90px;
+    margin-left: -130px;
 }
 .Text{
     padding-left: 10px;

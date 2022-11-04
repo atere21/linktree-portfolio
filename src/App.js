@@ -4,9 +4,11 @@ import ProfileLink from './ProfileLink'
 import SocialIcons from './SocialIcons'
 import {BrowserRouter as Router, Switch, Route}
 from "react-router-dom"
+
 import Contact from './Contact'
 
 function App() {
+  
   return (
     <Router>
     <div className='app' >
