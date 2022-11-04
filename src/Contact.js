@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+
 import './Contact.css'
 function Contact() {
     
@@ -37,8 +37,8 @@ function Contact() {
                         </div>
                         
                             
-                        <input id='sub' type="checkbox" value=""></input>
-                        
+                
+                        <input type="checkbox" id='sub' ></input>
                         <label id='check_label'>You agree to providing your data to us who may contact you</label>
                         
                         <div className='button'>

@@ -204,12 +204,11 @@ form .form-row .input-data{
     transition: 0.4s;
 }
 #sub{
-    
     width: 20px;
     height: 30px;
     background: #FFFFFF;
     border: 1px solid #D0D5DD;
-    margin-top: 20px;
+    margin-top: 20px; 
 }
 #check_label{
     width: 250px;
