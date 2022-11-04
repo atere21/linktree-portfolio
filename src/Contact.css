@@ -11,31 +11,46 @@
     justify-content: center;
     min-height: 100vh;
     padding: 50px;
+    gap: 14px;
+    /* padding: 80px; */
     background-color: white;
+}
+.text{
+    margin-right: 210px;
+    margin-left: -18px;
+    
+}
+#text-me{
+    margin-left: -5px;
+}
+#first_N{
+    margin-left: -2px;
 }
 .container2{
     background: white;
-    width:100vw;
+    width:80vw;
     max-width: 80vw;
-    height: 100vh;
-    padding: 25px 280px 70px 40px;
+    height: 90vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
 }
 .container2 .text{
     font-size: 23px;
     font-weight:lighter;
     text-align: left; 
-    width: 40vw;
-    
+    width: 40vw; 
 }
 .container2 .text >p{
-width: 75vw;
+width: 55vw;
 height: 6vh;
 font-family: 'Inter';
 font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
+font-weight: 200;
+font-size: 24px;
+line-height: 24px;
 color: #475467;
 
 }
@@ -62,8 +77,8 @@ label{
     
 }
 .name2{
-    width: 24vw;
-    height: 4.9vh;
+    width: 21vw;
+    height: 3.9vh;
     border-radius: 10px;
     background: #FFFFFF;
     border: 1px solid #D0D5DD;
@@ -71,9 +86,26 @@ label{
     border-radius: 8px;
     
 }
+@media screen and (max-width: 819px) {
+    .form-row {
+      display: flex;
+      flex-flow: column;
+      
+    }
+    .lastn{
+        margin-top: 30px;
+    }
+    #first_name{
+        width: 193px;
+    }
+   .name2{
+    width: 193px;
+   }
+}
+
 .name1{
-    width: 24vw;
-    height: 4.9vh;
+    width: 21vw;
+    height: 3.9vh;
     border-radius: 10px;
     background: #FFFFFF;
     border: 1px solid #D0D5DD;
@@ -131,4 +163,47 @@ form .form-row .input-data{
     border-radius: 8px;
     border: 1px solid #D0D5DD;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+.input-data input:focus ~ label{
+
+}
+ .input-data >label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 10px;
+    color: #344054;
+}
+.button{
+
+}
+#btn__submit{
+
+}
+#btn__submit{
+    height: 35px !important;
+    width: 50vw !important;
+    background: #1570EF;
+    border: 1px solid #1570EF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+#btn__submit:hover{
+    color: white;
+    background-color: #508bdf;
+    transition: 0.4s;
+}
+#sub{
+    box-sizing: border-box;
+    width: 20px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+}
+#check_label{
+    width: 200px;
 }

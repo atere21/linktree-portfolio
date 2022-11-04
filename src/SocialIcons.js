@@ -15,9 +15,13 @@ function SocialIcons() {
         <img className="git" src={Git} alt='menu' />
         </div>
         <div className='bottom__footer'>
+          <div className='b__foot'>
+            <div>
         <img className='zuri' src= "https://internship.zuri.team/static/media/logo.36d2d48a.svg" alt="img" />
         <img className='Text' src={Ftext}/>
         <img className="I4g" src={I4g} alt='menu' />
+        </div>
+        </div>
         </div>
     </div>
   )
