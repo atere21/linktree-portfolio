@@ -31,7 +31,7 @@ function Contact() {
                 </div>
                 <div className='form-textarea'>
                     <div className='input-data'>
-                    <label>Message</label>
+                    <label className='msg'>Message</label>
                         <textarea className='message' required id='message' cols="40" rows="7" placeholder='send me a message, i will reply as soon as possible'>
                         </textarea>
                         </div>

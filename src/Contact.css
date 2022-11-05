@@ -106,6 +106,13 @@ label{
    }
    
 }
+@media screen and (min-width: 1200px) {
+    .name2{
+        margin-left: -160px;
+    }
+      
+    
+}
 
 .name1{
     width: 21vw;
@@ -161,6 +168,9 @@ form .form-row .input-data{
     bottom: 30px;
     
 }
+.msg{
+    margin-top: 40px;
+}
 .message{
     display: flex;
     flex-direction: column;
@@ -196,7 +206,7 @@ form .form-row .input-data{
     border: 1px solid #1570EF;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     border-radius: 8px;
-    margin-top: 50px;
+    margin-top: 70px;
     padding-bottom: 10px;
     cursor: pointer;
 }
@@ -215,6 +225,6 @@ form .form-row .input-data{
 #check_label{
     width: 250px;
     font-size: small;
-    padding-left: 30px;
+    padding-left: 70px;
     margin-top: -30px;
 }
