@@ -37,14 +37,21 @@ h2{
 
 .ImgIcon{
     
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    width:180px ;
+    height:180px ;
     border-radius: 280px;
+    margin-bottom: 20px;
+    /* border-radius: 280px;
     width: 100px;
     height: 100px;
     margin-top: -90px;
     justify-content: center;
     margin-left: 100px;
-    resize: none;
+    resize: none; */
 }
 .profileLinks{
     margin-left: 0px;
@@ -54,7 +61,9 @@ h2{
     
 }
 .name{
-    margin-bottom: -10px;
-    margin-top: 40px;
-    margin-left: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    margin-left:-90px;
 }
