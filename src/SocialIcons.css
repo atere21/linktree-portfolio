@@ -2,7 +2,7 @@
     position: flex;
     align-content: center;
     padding-left: 390px;
-    width: 100px;
+    width: 30vw;
     resize: none;
 }
 @media screen and (max-width: 700px) {
@@ -18,20 +18,12 @@
     .slack_git{
         position: flex;
         align-content: center;
-        padding-left: 250px;
+        padding-left: 450px;
         width: 150px;
        
     }
 }
-@media screen and (min-width: 701px) and (max-width: 1266px) {
-    .slack_git{
-        
-        align-content: center;
-        padding-left: -290px;
-        resize: none;
-       
-    }
-}
+
 .zuri{
     width: 90px;
     padding-top: 30px;
