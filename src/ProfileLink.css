@@ -8,8 +8,8 @@ h3{
     padding: 30px;
     text-align: center;
     margin: 50px;
-    height: 3.5vh;
-    width: 70vw;
+    height: 4.5vh;
+    width: 80vw;
     background-color: rgb(216, 204, 204);
     font-size: medium;
     font-weight: light;
@@ -43,7 +43,7 @@ h2{
     height: 100px;
     margin-top: -90px;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 100px;
     resize: none;
 }
 .profileLinks{
@@ -56,5 +56,5 @@ h2{
 .name{
     margin-bottom: -10px;
     margin-top: 40px;
-    margin-left: 100px;
+    margin-left: -70px;
 }
