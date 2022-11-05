@@ -10,7 +10,7 @@ function Contact() {
             <form action='#'>
                 <div className='form-row'>
                     <div className='input-data' id='first_N'>
-                    <label>First Name</label>
+                    <label className ="first1">First Name</label>
                     <input className='name1' id='first_name' type='text' required placeholder='Enter your first name' />
 
                 </div>

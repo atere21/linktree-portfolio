@@ -26,6 +26,11 @@
 }
 #first_N{
     margin-left: -2px;
+    
+}
+.first1{
+    width: 100px;
+    
 }
 .container2{
     background: white;
@@ -57,16 +62,18 @@ color: #475467;
 }
 .lastn{
     font-size: medium;
-    
+    width: 100px;
+    margin-left: -150px;
 }
 label{
     display: block;
 }
 .container2 .text p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: left;
     background-color: white;
     margin-top: 15px;
+    width: 70vw;
     
 }
 .container2 form{
@@ -76,18 +83,21 @@ label{
 .container2 form .form-row{
     display: flex;
     margin: 72px 0;
+
     
 }
 .name2{
     width: 21vw;
-    height: 5.9vh;
+    height: 3.9vh;
     border-radius: 10px;
     background: #FFFFFF;
     border: 1px solid #D0D5DD;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     border-radius: 8px;
     
+    
 }
+
 @media screen and (max-width: 819px) {
     .form-row {
       display: flex;
@@ -96,6 +106,7 @@ label{
     }
     .lastn{
         margin-top: 40px;
+        margin-left: 0px;
         
     }
     #first_name{
@@ -116,7 +127,7 @@ label{
 
 .name1{
     width: 21vw;
-    height: 5.9vh;
+    height: 3.9vh;
     border-radius: 10px;
     background: #FFFFFF;
     border: 1px solid #D0D5DD;
@@ -171,6 +182,7 @@ form .form-row .input-data{
 .msg{
     margin-top: 40px;
 }
+
 .message{
     display: flex;
     flex-direction: column;
